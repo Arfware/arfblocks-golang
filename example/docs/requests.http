@@ -1,0 +1,13 @@
+@ApiUrl = http://localhost:7001
+
+### Get
+GET {{ApiUrl}}/todos/get
+Accept: application/json
+
+### All
+GET {{ApiUrl}}/todos/all
+Accept: application/json
+
+### Test
+GET {{ApiUrl}}/todos/test
+Accept: application/json
